@@ -1,0 +1,56 @@
+body {
+            background-color: black;
+            color: white;
+        }
+        .pic {
+            height: 100px;
+            width: 100px;
+            cursor: pointer;
+            border-radius: 60px;
+        }
+
+        .pictures {
+            border-radius: 60px;
+            margin-right: 100px;
+            margin-left: 230px;
+            margin-bottom: 33px;
+            margin-top: 35px;
+        }
+
+        .game {
+            text-align: center;
+            font-weight: bold;
+            font-family: Arial;
+            font-size: 40px;
+        }
+
+        .result {
+            font-size: 27px;
+        }
+
+        .RPS {
+            font-size: 20px;
+        }
+
+        .js-sub {
+            padding: 20px;
+            background-color: snow;
+            font-weight: bold;
+            font-size: 18px;
+            color: black;
+            cursor: pointer;
+            border-radius: 25px;
+            border: none;
+        }
+
+        .after-sub {
+            background-color: brown;
+        }
+
+        .reset {
+            cursor: pointer;
+            padding: 10px;
+            border-radius: 10px;
+            font-weight: bold;
+            
+        }

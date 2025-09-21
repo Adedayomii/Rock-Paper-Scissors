@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gaming</title>
+    <link rel="stylesheet" href="styling/first-project.css">
+    
+</head>
+
+<body>
+    <p class="game">Welcome to our Gaming page!</p>
+    <p class="RPS">Rock-Paper-Scissors is a quick and fun hand game for two players. Each player chooses either rock, 
+        paper, or scissors at the same time. The winner is decided by simple rules: rock beats scissors, scissors beat paper, 
+        and paper beats rock.</p>
+    <p class="RPS">Please support us by clicking the subscribe button below</p>
+
+    <button onclick="
+        subscribeButton ()
+    " class="js-sub">Subscribe</button> <br>
+
+    <button onclick="
+        myMove('Rock')
+        " class="pictures"><img src="images/Rock.png" alt="Rock pic" class="pic"></button>
+
+    <button onclick="
+        myMove('Paper')
+        " class="pictures"><img src="images/Paper.png" alt="Rock pic" class="pic"></button>
+    <button onclick="
+        myMove('Scissors')
+        " class="pictures"><img src="images/Scissors.png" alt="Rock pic" class="pic"></button>
+
+    <p class="js-result result"></p>
+    <p class="js-moves result"></p>
+    <p class="js-update result"></p>
+
+
+    <button onclick="
+        scores.wins = 0;
+        scores.losses = 0;
+        scores.ties = 0;
+        resetButton ()
+        " class="reset">Reset Score</button>
+
+<script src="scripts/first-project.js"></script>  
+
+</body>
+
+</html>
